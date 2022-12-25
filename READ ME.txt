@@ -1,0 +1,11 @@
+I used a separate code for file and profile upload. That php file name is upload.php
+I used a separate code for application forms
+
+Architect & Contractor - Architect.php
+Buyer - Buysell.php
+Seller- sellBuy.php 
+
+
+DONT forgot add Java script 
+
+ Have a Nice Coding Madhu Ayya 🥳🥳

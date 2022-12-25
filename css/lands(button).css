@@ -1,0 +1,20 @@
+.buttons{
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.8;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button_family{
+	display: inline;
+}
+
+.buttons:hover {
+  opacity: 1;

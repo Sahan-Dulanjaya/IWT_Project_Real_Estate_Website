@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div>
+	<div id="newstitle">
+    <h1 id="h1news"><a href="http://localhost/IWT%20Project/src/php/addnews.php">Add News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://localhost/IWT%20Project/src/php/deletenews.php">Delete News</a></h1>
+    </div>
+
+    <br>
+
+    <div id="selection" align="left">
+    <a href="#postspage"><img class="news" src="images/news.png" alt="News"></a>
+    <a href="#h1news"><img class="popular" src="images/popular.png" alt="Popular"></a>
+    <a href="#trendingimages"><img class="latest" src="images/latest.png" alt="Latest"></a> 
+    <img class="search" src="images/search.png" alt="Search">
+    </div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img id="slideimages" src="images/news1.jpg" style="width:100%">
+  <div class="text">
+  	<h2 class="posttitle1" align="left">
+        What You Need to Know About<br> the Fair Housing Act
+    </h2>
+    <h3 class="seemore" align="left">
+    	READ MORE
+    </h3>
+    <a href="posts/news1.html"><img class="arrowhead" src="images/arrowhead.png"></a>
+    <h4 class="numbertext">1 of 5</h4>
+  </div>
+ </div>
+
+<div class="mySlides fade">
+  <img id="slideimages" src="images/news2.jpg" style="width:100%">
+  <div class="text">
+  	<h2 class="posttitle1" align="left">
+        Most Important Questions to Ask<br> Before You Invest in Real Estate
+    </h2>
+    <h3 class="seemore" align="left">
+    	READ MORE
+    </h3>
+    <a href="posts/news2.html"><img class="arrowhead" src="images/arrowhead.png"></a>
+    <h4 class="numbertext">2 of 5</h4>
+  </div>
+ </div>
+
+ <div class="mySlides fade">
+  <img id="slideimages" src="images/news3.jpg" style="width:100%">
+  <div class="text">
+  	<h2 class="posttitle1" align="left">
+        It’s A Hot Summer For Landlords<br> As Prices Continue To Bounce Back
+    </h2>
+    <h3 class="seemore" align="left">
+    	READ MORE
+    </h3>
+    <a href="posts/news3.html"><img class="arrowhead" src="images/arrowhead.png"></a>
+    <h4 class="numbertext">3 of 5</h4>
+  </div>
+ </div>
+
+ <div class="mySlides fade">
+  <img id="slideimages" src="images/news4.jpg" style="width:100%">
+  <div class="text">
+  	<h2 class="posttitle1" align="left">
+        Mortgage lending curbs to impact<br> first-home buyers
+    </h2>
+    <h3 class="seemore" align="left">
+    	READ MORE
+    </h3>
+    <a href="posts/news4.html"><img class="arrowhead" src="images/arrowhead.png"></a>
+    <h4 class="numbertext">4 of 5</h4>
+  </div>
+ </div>
+
+ <div class="mySlides fade">
+  <img id="slideimages" src="images/news5.jpg" style="width:100%">
+  <div class="text">
+  	<h2 class="posttitle1" align="left">
+        Industry Overview: Real Estate<br> Investment Trust
+    </h2>
+    <h3 class="seemore" align="left">
+    	READ MORE
+    </h3>
+    <a href="posts/news5.html"><img class="arrowhead" src="images/arrowhead.png"></a>
+    <h4 class="numbertext">5 of 5</h4>
+  </div>
+ </div>
+
+<a class="prev" onclick="plusSlides(-1)"><img class="arrows" src="images/leftarrow.png"></a>
+<a class="next" onclick="plusSlides(1)"><img class="arrows" src="images/rightarrow.png"></a>
+
+</div>
+<br>
+
+<div id="dots" style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+
+<div class="trendingpost-container">
+<div class="trendingposts">
+	<h1  class="trendingtext">Trending Posts</h1>
+	<a href="posts/news1.html"><img id="trendingimages" src="images/newsmini1.jpg" style="width: 30%; height: 20%">
+	<h3 class="para">What You Need to Know About the Fair Housing Act</h3></a>
+	<br><br>
+	
+	<a href="posts/news2.html"><img id="trendingimages" src="images/newsmini2.jpg" style="width: 30%; height: 20%">
+	<h3 class="para">Most Important Questions to Ask Before You Invest in Real Estate</h3></a>
+	<br>
+	
+	<a href="posts/news3.html"><img id="trendingimages" src="images/newsmini3.jpg" style="width: 30%; height: 20%">
+	<h3 class="para">It’s A Hot Summer For Landlords, As Prices Continue To Bounce Back</h3></a>
+	<br>
+
+	<a href="posts/news4.html"><img id="trendingimages" src="images/newsmini4.jpg" style="width: 30%; height: 20%">
+	<h3 class="para">Mortgage lending curbs to impact first-home buyers</h3></a>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div id="postspage" onclick="location.href = 'posts/news1.html'";>
+    <div>
+        <img class="imgs" src="posts/news1.jpg">
+    </div>    
+    <h2 class="posttitle">
+        What You Need to Know About<br> the Fair Housing Act
+    </h2>
+    <h3 class="postcontent">
+        Although it’s widely accepted that a strong real estate investment has the potential to generate considerable wealth, until recently...
+    </h3>
+    </div>
+
+ <div id="postspage" onclick="location.href = 'posts/news2.html'";>
+    <div>
+        <img class="imgs" src="posts/news2.jpg">
+    </div>    
+    <h2 class="posttitle">
+        Most Important Questions to Ask<br> Before You Invest in Real Estate
+    </h2>
+    <h3 class="postcontent">
+        if you’ve searched for a new place to live recently, you’ve likely seen the Equal Housing Opportunity...
+    </h3>
+    </div>
+
+    <div id="postspage" onclick="location.href = 'posts/news3.html'";>
+    <div>
+        <img class="imgs" src="posts/news3.jpg">
+    </div>    
+    <h2 class="posttitle">
+        Prices Continue To Bounce Back
+    </h2>
+    <h3 class="postcontent">
+        The median rental price in Manhattan rose sharply last month, according to newly released data...
+    </h3>
+    </div>
+
+    <div id="postspage" onclick="location.href = 'posts/news4.html'";>
+    <div>
+        <img class="imgs" src="posts/news4.jpg">
+    </div>    
+    <h2 class="posttitle">
+        Mortgage lending curbs to impact <br> first-home buyers
+    </h2>
+    <h3 class="postcontent">
+        With the federal treasurer confirming that macroprudential curbs to mortgage lending are on the...
+    </h3>
+    </div>
+
+    <div id="postspage" onclick="location.href = 'posts/news5.html'";>
+    <div>
+        <img class="imgs" src="posts/news5.jpg">
+    </div>    
+    <h2 class="posttitle">
+        Industry Overview: Real Estate <br> Investment Trust
+    </h2>
+    <h3 class="postcontent">
+        Real Estate Investment Trusts (REITs) were created by the United States Congress in the 1960s,...
+    </h3>
+    </div>
+
+</div>
+
+
+<div id="postspage" onclick="location.href = 'posts/news1.html'";>
+    <div>
+        <img class="imgs" src="posts/news1.jpg">
+    </div>    
+    <h2 class="posttitle">
+        What You Need to Know About<br> the Fair Housing Act
+    </h2>
+    <h3 class="postcontent">
+        Although it’s widely accepted that a strong real estate investment has the potential to generate considerable wealth, until recently...
+    </h3>
+    </div>
+
+<script type="text/javascript" src="js/externalnews.js"></script>
+
+</body>
+</html> 

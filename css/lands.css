@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.card {
+	padding: 40px;
+	border: 2px solid gray;
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+.column{
+	float: left;
+	width: 25%
+	padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.price {
+  color: grey;
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #04AA6D;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.heading{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}

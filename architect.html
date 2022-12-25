@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="architect.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>Architect Verification</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">Architect Portal</h1>
+      <p id="description" class="description text-center">
+        There is a better way to grow your Profession
+      </p>
+    </header>
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+    <div class="profile-pic-div">
+      <img src="profileim.jpg" id="photo">
+      <input type="file" id="file">
+      <label for="file" id="uploadBtn">Choose Photo</label>
+    </div>
+  
+    
+   </form>
+
+    <form  name="application" id="survey-form" action="architect.php" method="post" enctype="multipart/form-data" >
+	
+      <div class="form-group">
+        <label id="email-label" for="email">First Name</label>
+        <input type="name" name="firstname" id="email" class="form-control" placeholder="Enter your First Name" required/>
+      </div>
+
+   <div class="form-group">
+        <label id="name-label" for="lname">Last Name</label>
+        <input type="name" name="lastname" id="lastname" class="form-control" placeholder="Enter your Last Name" required/>
+      </div>
+	  
+	  <div class="form-group">
+        <label id="email-label" for="email">EMail Address</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required/>
+      </div>
+	  
+	  <div class="form-group">
+        <label id="pw-label" for="password">Password</label>
+        <input type="password" name="password" id="password" class="form-control" placeholder="Enter your password" required/>
+      </div>
+
+      <div class="form-group">
+        <label id="address-label" for="address">Address</label>
+        <input type="address" name="address" id="address" class="form-control" placeholder="Enter your Address" required/>
+      </div>
+
+      <div class="form-group">
+        <p>
+          Choose Your District
+        </p>
+        <select id="district" name="district" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="district">Ampara</option>
+          <option value="district">Anuradhapura</option>
+          <option value="district">Badulla</option>
+          <option value="district">Batticaloa</option>
+          <option value="district">Colombo</option>
+          <option value="district">Galle</option>
+          <option value="district">Gamphaha</option>
+          <option value="district">Hambantota</option>
+          <option value="district">Jaffna</option>
+          <option value="district">Kalutara</option>
+          <option value="district">Kandy</option>
+          <option value="district">Kegalle</option>
+          <option value="district">Killinochi</option>
+          <option value="district">Kurunegala</option>
+          <option value="district">Mannar</option>
+          <option value="district">Matale</option>
+          <option value="district">Matara</option>
+          <option value="district">Monaragala</option>
+          <option value="district">Mullaitivu</option>
+          <option value="district">Nuwara Eliya</option>
+          <option value="district">polonnaruwa</option>
+          <option value="district">Puttalam</option>
+          <option value="district">Ratnapura</option>
+          <option value="district">Trincomalee</option>
+          <option value="district">Vavuniya</option>
+
+        </select>
+      </div>
+
+      <div class="form-group">
+        <p>
+          Choose Your Province
+        </p>
+        <select id="province" name="province" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="province">Central Province</option>
+          <option value="province">Eastern Province</option>
+          <option value="province">North Province</option>
+          <option value="province">North Central Province</option>
+          <option value="province">North Western Province</option>
+          <option value="province">Sabaragamuwa province</option>
+          <option value="projects">Southern Province</option>
+          <option value="province">Western Province</option>
+          
+        </select>
+      </div>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="number-label" for="number">Phone Number</label>
+          <input type="text" name="number" id="number" class="form-control" placeholder="Enter your Phone Number"required/>
+        </div>
+      
+      
+      
+      <div class="form-group">
+        <label id="birthday" for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        
+      </div>
+
+      <div class="form-group">
+        <p>Choose your Job Experience</p>
+        <label>
+          <input name="experience" value="below" type="radio"class="input-radio" checked/>Below 1 Year
+          </label>
+        <label>
+          <input name="experience" value="medium" type="radio" class="input-radio"/>Between 1 year to 5 year
+        </label>
+        <label>
+          <input name="experience" value="above" type="radio" class="input-radio"/>Above 5 years
+        </label>
+  
+        
+      </div>
+  
+     <div class="form-group">
+        <label id="nic-label" for="nic">NIC</label>
+        <input type="nic" name="nic" id="nic" class="form-control" placeholder="Enter your NIC Number" required/>
+      </div>
+        
+      
+      <form name="upload" method="POST" action="upload.php">
+      <label> Upload Your CV Here: </label>
+    <input type="file" id="myFile" name="file" /> <br /><br />
+  
+
+  
+      <div class="form-group"></div>
+        <button type="submit" id="submit" name = "upload" class="submit-button">
+          Submit
+        </button>
+      </div>
+      
+      
+    </form>
+    
+  </div>
+  
+   <script src="pro.js"></script>
+   <script src="popup.js"></script>
+</body>
+</html>

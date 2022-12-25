@@ -1,0 +1,39 @@
+
+Project Group ID - MLB_01.01_11
+Batch No - 01.01
+Topic - Online Property Sales System
+Project Link - https://mysliit-my.sharepoint.com/:u:/g/personal/it21008382_my_sliit_lk/ERGBuICHdSpHgQFcbzNZoFQBPHIy7Sqa6_FPjXuM8WyxbA?e=rf6y0x
+
+------------------------------------------------------------------
+Group Member Details
+------------------------------------------------------------------
+
+Member ID - IT21008382
+Member Name - M.M.R.Muthusinghe
+Contact No - 0762415431
+Email Address - it21008382@my.sliit.lk
+Implemented functions - Lands, Houses and Apartments, Homepage 
+
+Member ID - IT21035012
+Member Name - S.D. Munasinghe 
+Contact No - 0702310660
+Email Address - it21035012@my.sliit.lk
+Implemented functions - News, Payment, FAQ
+
+Member ID - IT21023996
+Member Name - H.M.A. Chandeep 
+Contact No - 0715396652
+Email Address - it21023996@my.sliit.lk
+Implemented functions - Consideration List (cart function), Contact Us
+
+Member ID - IT21004940
+Member Name - S.srithanujan
+Contact No - 0784453595
+Email Address - it21004940@my.sliit.lk
+Implemented functions - Register, Login, About page
+
+Member ID - IT21014222
+Member Name - R. Sabaskaran 
+Contact No - 0779017628
+Email Address - it21014222@my.sliit.lk
+Implemented functions - Design a house function, header and footer

@@ -1,0 +1,135 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+html { 
+    background: linear-gradient(
+      115deg,
+      #9c3a3acc,
+      #8888ceb3
+    ), url('overlay6.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+  }
+  body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    
+ }
+h1{
+    text-align: center;
+    font-size: 90px;
+    color:rgb(255, 255, 255);
+    font-family: 'Bonheur Royale', cursive;
+    
+    
+}
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div {
+	width: 100%;
+	height: 55vh;
+}
+
+.block:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.button {
+  display: block;
+  width: 320px;
+  height: 330px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+  transform: translatez(0);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 40px;
+  font-weight: normal;
+  box-shadow: 0 9px 18px rgba(0,0,0,0.9);
+  opacity: 1;
+ 
+
+}
+
+.selection {
+  text-align: center;
+  margin: auto;
+  writing-mode: vertical-lr;
+  
+  border-radius: 20px;
+  padding: 26px;
+  color: white;
+  background: linear-gradient(to right, #ee0978d7, #ff6a00d5);
+  opacity: 0.7;
+  transition: all 0.2s ease-out 0s;
+}
+
+.gradient {
+	display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  bottom: auto;
+  margin: auto;
+  z-index: -1;
+  background: radial-gradient(90px circle at top center, rgba(238,88,63,.8) 30%, rgba(255,255,255,0));
+  transition: all 0s ease-out 0s;
+  transform: translatex(-140px);
+  animation: 18s linear 0s infinite move;
+}
+
+
+.footer{
+    text-align: center;
+    color: white;
+    
+}
+
+img{
+  width: 50px;
+  height: 55px;
+}
+
+
+
+
+@keyframes move {
+	0% {
+		transform: translatex(-140px);
+	}
+	25% {
+		transform: translatex(140px);
+		opacity: 0.3;
+	}
+	50% {
+		transform: translatex(140px);
+		opacity: 1;
+		background: radial-gradient(90px circle at bottom center, rgba(238,88,63,.5) 30%, rgba(255,255,255,0));
+	}
+	75% {
+		transform: translatex(-140px);
+		opacity: 0.3;
+	}
+	100% {
+		opacity: 1;
+		transform: translatex(-140px);
+		background: radial-gradient(90px circle at top center, rgba(238,88,63,.5) 30%, rgba(255,255,255,0));
+	}
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/add.css">
+</head>
+<body>
+
+<h2> Add a Gig </h2>
+
+<div class="container">
+	<form method="POST" action="addGig.php" enctype="multipart/form-data">
+		<div class="row">
+			<div class="col-25">
+				<label for="gigType">Gig Type</label>	
+			</div>
+			<div class="col-75">
+				<select id="gigType" name="gigType">
+					<option value="dis">Select Gig Type</option>
+					<option value="architecture">Architecture</option>
+					<option value="Contractor">Contractor</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-25">
+				<label for="pname">Gig Name</label>
+			</div>
+			<div class="col-75">
+				<input type="text" id="pname" name="gigName" placeholder="Add a name..">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-25">
+				<label for="gigDes">Description</label>
+			</div>
+			<div class="col-75">
+				<textarea id="gigDes" name="gigDes" placeholder="Description" style="height:100px"></textarea>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-25">
+				<label for="startingprice">Price</label>
+			</div>
+			<div class="col-75">
+				<input type="number" id="startingprice" name="startingprice" placeholder="add the starting price..">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-25">
+				<label for="image">Select Images:</label>
+			</div>
+			<div class="col-75">
+				<input type="file" id="image" name="uploadfile" value=""/>
+			</div>
+		</div>
+		<div class="row">
+			<button  class = "button" type="submit" name="upload"> UPLOAD </button>
+		</div>
+	</form>
+</div>
+
+</body>
+</html>
